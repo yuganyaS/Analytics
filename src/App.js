@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import * as actions from './actions/homeactions';
+import Header from './components/Header';
+import NavigationBar from './components/NavigationBar';
+import Mainpage from './components/Mainpage';
 import {connect} from 'react-redux';
 
 function mapStateToProps(state){
@@ -17,13 +19,12 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
+        <Header />
+        <NavigationBar />
+        {/* <p className="App-intro">
           To get started,{this.props.info.name} edit <code>src/App.js</code> and save to reload.
-        </p>
+        </p> */}
+        <Mainpage />
       </div>
     );
   }
