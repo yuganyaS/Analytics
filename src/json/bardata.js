@@ -1,4 +1,4 @@
-var bardata = [
+const bardatas = [
     {
     "country": "USA",
     "visits": 2025
@@ -39,4 +39,4 @@ var bardata = [
     "country": "Brazil",
     "visits": 395
   }];
-  export default bardata;
+  export default bardatas;

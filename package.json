@@ -4,6 +4,8 @@
   "private": true,
   "dependencies": {
     "@amcharts/amcharts3-react": "^3.1.0",
+    "datatables.net-fixedcolumns-bs4": "^3.2.6",
+    "jquery": "^3.3.1",
     "react": "^16.4.2",
     "react-autosuggest": "^9.4.0",
     "react-dom": "^16.4.2",

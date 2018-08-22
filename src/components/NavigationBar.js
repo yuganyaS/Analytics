@@ -99,7 +99,7 @@ class NavigationBar extends Component{
 
                    </Col>
                    <Col md="2" className="settings-section">
-                   <span><i class="fas fa-cog"></i></span>
+                   <span><i className="fas fa-cog"></i></span>
                  </Col>
                </Row>
             </Container>

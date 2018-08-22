@@ -4,13 +4,13 @@ class Header extends Component{
     render(){
         return(
             <header className="header-section">
-                <div class="side-section">
+                <div className="side-section">
                     <img src={logo} className="logo" alt="analytics" />
-                    <span class="vertical-middle">Analytics</span>
+                    <span className="vertical-middle">Analytics</span>
                 </div>
-                <div class="side-section">
-                    <span class="vertical-middle">info</span>
-                    <span class="vertical-middle">Login</span>
+                <div className="side-section">
+                    <span className="vertical-middle">info</span>
+                    <span className="vertical-middle">Login</span>
                 </div>
             </header>
         )

@@ -118,6 +118,20 @@ nav>a{
 .settings-section>span{
   font-size: 20px;
 }
+/*Chart Section*/
+#barchart,#piechart{
+  width:100%;
+  height:15em;
+}
+a[href="http://www.amcharts.com"] {
+  display: none !important;
+}
+
+/*report sections*/
+
+.nav-tabs:hover{
+  cursor:pointer;
+}
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
